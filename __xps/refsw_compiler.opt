@@ -1,0 +1,20 @@
+ppc405_0
+REFSW_SOURCES = /cygdrive/c/MC09-contest/RefSW/src/RefSW.c /cygdrive/c/MC09-contest/RefSW/src/cart2pol.c /cygdrive/c/MC09-contest/RefSW/src/refutil.c 
+REFSW_HEADERS = /cygdrive/c//MC09-contest/RefSW/src/timer.h /cygdrive/c//MC09-contest/RefSW/src/cart2pol.h 
+REFSW_CC = powerpc-eabi-gcc
+REFSW_CC_SIZE = powerpc-eabi-size
+REFSW_CC_OPT = -O2
+REFSW_CFLAGS = 
+REFSW_CC_SEARCH = # -B
+REFSW_LIBPATH = -L./ppc405_0/lib/ # -L
+REFSW_INCLUDES = -I./ppc405_0/include/  -IRefSW/src/ # -I
+REFSW_LFLAGS = # -l
+REFSW_LINKER_SCRIPT = /cygdrive/c/MC09-contest/RefSW/src/RefSW_LinkScr.ld
+REFSW_CC_DEBUG_FLAG =  -g 
+REFSW_CC_PROFILE_FLAG = # -pg
+REFSW_CC_GLOBPTR_FLAG= # -msdata=eabi
+REFSW_CC_INFERRED_FLAGS= 
+REFSW_CC_START_ADDR_FLAG=  #  # -Wl,-defsym -Wl,_START_ADDR=
+REFSW_CC_STACK_SIZE_FLAG=  #  # -Wl,-defsym -Wl,_STACK_SIZE=
+REFSW_CC_HEAP_SIZE_FLAG=  #  # -Wl,-defsym -Wl,_HEAP_SIZE=
+                  $(REFSW_CC_INFERRED_FLAGS)  \

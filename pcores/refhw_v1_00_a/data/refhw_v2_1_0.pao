@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          C:\XUP_work\memocode07\pcores/refhw_v1_00_a/data/refhw_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sat Sep 23 12:58:35 2006 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib refhw_v1_00_a refhw verilog

@@ -1,0 +1,1 @@
+ -p virtex2p -lang verilog -lp c:/XUP_work/xup/lib/   -pe ppc405_0  $(PPC405_0_BOOTLOOP)  -s mti -X c:/MC09-contest/ -E c:/MC09-contest/
